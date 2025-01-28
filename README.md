@@ -5,3 +5,8 @@ Using large language models (LLMs), this dissertation suggests an innovative fra
 RESEARCH GAP
 However, it is noteworthy that intelligent application of both large language models (LLMs) and graph search algorithms is not yet quite achieved, therefore, the research gap in their combination still exists and requires tackling to improve fault diagnosis in control systems. Currently, the main methodologies dealing with either implementing LLMs to perform text-oriented assignments or traditional search techniques to explore fault analysis are in place, though, a great framework that integrates both techniques to produce a rich and flexible feature is yet to be fully developed. Below, we outline specific gaps in the current research: 
 The present research utilizes LLMs in the analysis of pairwise interrelationships but there are no clear algorithms in the literature accruing to proving the entire causal graphs. Incorporating LLMs into graph search methods brings down the level of errors in structural diagnoses untested yet.
+
+Two prompts per pair:
+Does changing variable A cause a change in variable B? Please answer in a single word: yes or no.
+Does changing Variable B cause a change in Variable A? Please answer in a single word: yes or no.
+
